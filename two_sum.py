@@ -6,7 +6,7 @@
 
   You can return the answer in any order.'''
 
-class Solution:
+class TwoSumBruteForce:
 
     def __init__(self, nums: list[int], target: int):
         self.nums = nums
@@ -21,7 +21,7 @@ class Solution:
         return num_map
 
 
-class Solution_TwoSum:
+class TwoSumHashMap:
     def __init__(self, nums: list[int], target: int):
         self.nums = nums
         self.target = target
@@ -40,6 +40,6 @@ class Solution_TwoSum:
 
 
 
-obj = Solution_TwoSum([2, 3, 3, 4], 6)
+obj = TwoSumBruteForce([2, 3, 3, 4], 6)
 result = obj.twoSum()
 print(result)
