@@ -40,6 +40,6 @@ class TwoSumHashMap:
 
 
 
-obj = TwoSumBruteForce([2, 3, 3, 4], 6)
+obj = TwoSumBruteForce([2, 3, 3, 4], 5)
 result = obj.twoSum()
 print(result)
