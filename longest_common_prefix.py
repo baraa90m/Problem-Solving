@@ -1,5 +1,3 @@
-from bokeh.sampledata.iris import flowers
-
 
 class LongestCommonPrefix:
     """
